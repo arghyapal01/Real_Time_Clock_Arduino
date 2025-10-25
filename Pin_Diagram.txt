@@ -1,0 +1,22 @@
+Buzzer to Arduino 
++ve --> GND 
+-ve -->8
+LCD to Arduino 
+VSS	Ground	GND
+2	VDD--->	+5V Power--->	5V
+3	V0 ---->	Contrast control	Middle pin of 10kΩ potentiometer (other two ends to +5V and GND)
+4	RS	----->Register Select	------>D12
+5	RW  ------->	Read/Write	--->GND (Write mode)
+6	EN	Enable	D11
+11	D4	---->Data bit 4 ----->	D5
+12	D5	---->Data bit 5 ---->	D4
+13	D6 ----->	Data bit 6 ----->	D3
+14	D7	--->Data bit 7 ----->	D2
+15	LED+	----> Backlight +	------->5V (through 220Ω resistor)
+16	LED− ------>	Backlight − -----	GND
+Push button to Arduino
+1  push 1 -6
+2 push 2 -7
+3 push 3 -9
+4 push 4 -10
+
